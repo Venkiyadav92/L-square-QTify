@@ -1,7 +1,7 @@
 import React from 'react';
-import './SearchBox.css';
+import './Searchbox.css';
 
-function SearchBox() {
+function Searchbox() {
   return (
     <div className="searchBox">
       <input type="text" placeholder="Search a album of your choice" />
@@ -12,4 +12,4 @@ function SearchBox() {
   );
 }
 
-export default SearchBox;
+export default Searchbox;
