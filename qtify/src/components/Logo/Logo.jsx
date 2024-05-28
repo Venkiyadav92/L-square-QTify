@@ -1,12 +1,12 @@
-import QtifyIcon from '../../assets/Qtify icon.png';
-import "./Logo.css";
-import React from "react";
+import React from 'react'
+import LogoImage from "../../assets/logo.png"
+
 const Logo = () => {
-    return(
-        <div>
-        <img src={QtifyIcon} alt="Logo" />
-        </div>
-    )
+  return (
+    <div>
+        <img src={LogoImage} alt="Logo" width={67} height={34} />
+    </div>
+  )
 }
 
-export default Logo;
+export default Logo
